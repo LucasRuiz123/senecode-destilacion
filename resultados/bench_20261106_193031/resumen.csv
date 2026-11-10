@@ -1,0 +1,6 @@
+configuracion,instancias,concurrencia_total,peticiones,exitosas,duracion_s,ejercicios_por_min,tokens_por_s_total,latencia_media_s,latencia_p95_s,json_valido_pct,vram_pico_mib,vram_antes_mib,vram_cargado_mib,vram_modelo_mib
+batching_x1,1,1,96,96,84.7,68.0,167.3,0.88,1.01,100.0,3926,598,3888,3290
+batching_x2,1,2,96,96,56.2,102.4,254.2,1.17,1.36,100.0,4126,620,4088,3468
+batching_x4,1,4,96,96,41.0,140.4,342.1,1.69,2.0,100.0,4468,587,4411,3824
+batching_x8,1,8,96,96,37.7,152.6,391.9,3.04,3.86,100.0,5180,587,5151,4564
+batching_x16,1,16,96,96,30.7,187.8,459.3,4.82,6.09,99.0,6639,605,6613,6008

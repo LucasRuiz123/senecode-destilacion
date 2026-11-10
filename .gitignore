@@ -1,0 +1,19 @@
+# Entorno y binarios (se reinstalan con setup_sala.sh)
+.venv/
+llamafile
+llamafile-wsl
+__pycache__/
+
+# Modelos y salidas de entrenamiento (pesan GB)
+modelos/
+*.gguf
+salida/
+checkpoints/
+
+# Datos: los de prueba se regeneran con scripts/generar_datos_prueba.py.
+# NUNCA subir datos reales de estudiantes al repositorio.
+data/
+
+# Logs de los servidores en los resultados
+resultados/**/servidor_*.log
+unsloth_compiled_cache/
