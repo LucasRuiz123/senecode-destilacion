@@ -1,0 +1,6 @@
+configuracion,instancias,concurrencia_total,peticiones,exitosas,duracion_s,ejercicios_por_min,tokens_por_s_total,latencia_media_s,latencia_p95_s,json_valido_pct,vram_pico_mib,vram_antes_mib,vram_cargado_mib,vram_modelo_mib
+instancias_1x1,1,1,64,64,55.9,68.7,168.9,0.87,0.99,100.0,3838,539,3820,3281
+instancias_2x1,2,2,64,64,67.4,57.0,140.0,2.11,2.4,100.0,7108,492,7072,6580
+instancias_3x1,3,3,64,64,68.4,56.1,138.0,3.2,3.73,100.0,10416,492,10362,9870
+instancias_4x1,4,4,64,64,70.8,54.2,133.3,4.38,5.08,100.0,13724,492,13652,13160
+instancias_5x1,5,5,64,64,69.7,55.1,135.4,5.38,5.95,100.0,17032,492,16942,16450
